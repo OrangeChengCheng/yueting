@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DownLoadViewController">
+            <connections>
+                <outlet property="contentScrollView" destination="MY6-fr-S7W" id="sxu-Fb-qte"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MY6-fr-S7W">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="MY6-fr-S7W" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="3Ln-Uc-kRY"/>
+                <constraint firstItem="MY6-fr-S7W" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Gsa-Gt-Dxn"/>
+                <constraint firstAttribute="trailing" secondItem="MY6-fr-S7W" secondAttribute="trailing" id="WHT-vM-cde"/>
+                <constraint firstAttribute="bottom" secondItem="MY6-fr-S7W" secondAttribute="bottom" id="ghE-6t-Iyd"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
